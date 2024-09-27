@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0014A0;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.table-container {
+  margin: 20px 0;
+  overflow-x: auto;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 14px;
+}
+
+.transaction-table th,
+.transaction-table td {
+  text-align: center;
+  padding: 15px;
+  font-size: 63%;
+}
+
+.transaction-table th {
+  background-color: #141ed2;
+  color: white;
+}
+
+.transaction-table td {
+  background-color: #f0f0f0;
+}
+
+#accountNumber {
+  border-right: 1px solid #DEDEDE;
+}
+
+.transaction-table td:first-child,
+.transaction-table th:first-child {
+  border-right: 1px solid #DEDEDE;
+}
+
+.transaction-table tbody td {
+  border: none;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
