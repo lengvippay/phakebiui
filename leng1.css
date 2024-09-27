@@ -64,9 +64,9 @@ button {
   border-right: 1px solid #DEDEDE;
 }
 
-.transaction-table td:first-child,
-.transaction-table th:first-child {
-  border-right: 1px solid #DEDEDE;
+.transaction-table td:nth-child(2),
+.transaction-table th:nth-child(2) {
+    border-right: 1px solid #DEDEDE;
 }
 
 .transaction-table tbody td {
