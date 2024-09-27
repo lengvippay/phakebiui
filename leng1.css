@@ -61,7 +61,7 @@ button {
 }
 
 #accountNumber {
-  border-right: 1px solid #DEDEDE;
+  border-right: none;
 }
 
 .transaction-table td:nth-child(2),
