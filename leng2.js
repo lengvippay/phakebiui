@@ -52,5 +52,5 @@ function replaceData() {
     document.getElementById('bankName').innerText = bankName;
     document.getElementById('paymentDetails').innerText = inputData[0];
     document.getElementById('transferMethod').innerText = transferMethod;
-    document.getElementById('transactionAmount').innerText = inputData[8] + " VND";
+    document.getElementById('transactionAmount').innerText = inputData[6] + " VND";
 }
